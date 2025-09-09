@@ -1,0 +1,26 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body { width: 100%; font-family: 'Arial', sans-serif; scroll-behavior: smooth; }
+
+/* Container */
+.container { max-width: 1200px; width: 100%; margin: 0 auto; padding: 0 20px; }
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Section padding */
+section, footer { padding: 60px 0; width: 100%; }
+
+/* Responsive */
+@media (max-width: 1024px) { section, footer { padding: 50px 15px; } }
+@media (max-width: 768px) { .nav-links { flex-direction: column; gap: 15px; } }
+@media (max-width: 480px) { .hero h1 { font-size: 1.5rem; } .hero p { font-size: 0.9rem; } }

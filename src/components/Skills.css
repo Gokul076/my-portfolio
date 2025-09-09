@@ -1,0 +1,5 @@
+/* Skills.css */
+.skills { background: #f0f0f0; }
+.skills h2 { font-size: 2.2rem; margin-bottom: 20px; }
+.skills ul { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+.skills li { background: #0073e6; color: white; padding: 10px 15px; border-radius: 6px; }

@@ -1,0 +1,7 @@
+.navbar { position: fixed; top: 0; width: 100%; background: rgba(0,0,0,0.85); padding: 15px 0; z-index: 100; }
+.navbar .container { display: flex; justify-content: space-between; align-items: center; }
+.logo { color: #ffd700; font-size: 1.8rem; font-weight: bold; cursor: default; }
+.nav-links { display: flex; gap: 25px; list-style: none; }
+.nav-links li { cursor: pointer; }
+.nav-links li a { color: #fff; text-decoration: none; transition: color 0.3s; }
+.nav-links li a:hover { color: #ffd700; }
